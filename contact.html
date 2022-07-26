@@ -1,74 +1,77 @@
 <!doctype html>
 <html lang="fr">
-<head>
-    <meta charset="utf-8">
-    <meta name="keywords" content="agence web à Lyon, agence webdesign Lyon, étapes de création d'un site web, refonte de site web, empreinte digitale, expérience Utilisateur, stratégie digitale, conception webdesign, consultants SEO, agence de référencement, stratégie webmarketing, création d'identité graphique, graphisme web">">
-    <meta name="description" content="La Panthère est une agence de web design basée à la Lyon">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <link rel="shortcut icon" type="image/png" href="favicon.jpg">
-    
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
-	
-    
-	<script src="./js/jquery-2.1.0.min.js"></script>
-	<script src="./js/bootstrap.min.js"></script>
-	<script src="./js/blocs.min.js"></script>
-	<script src="./js/jqBootstrapValidation.js"></script>
-	<script src="./js/formHandler.js"></script>
-    <title>Contact</title>
+	<head>
+		<meta charset="utf-8">
+		<meta name="keywords" content="agence web à Lyon, agence webdesign Lyon, création de votre site internet, refonte de site web, empreinte digitale, expérience utilisateur, stratégie digitale, conception webdesign, consultants SEO, création d'identité graphique, graphisme web">
+		<meta name="description" content="La Panthère est une agence de web design basée à la Lyon">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+		<link rel="shortcut icon" type="image/png" href="favicon.jpg">
+		
+		<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
+		<link rel="stylesheet" type="text/css" href="./css/et-line.css">
+		
+		
+		<script src="./js/jquery-2.1.0.js"></script>
+		<script src="./js/bootstrap.js"></script>
+		<script src="./js/blocs.js"></script>
+		<script src="./js/jquery.touchSwipe.js" defer></script>
+		<script src="./js/gmaps.js"></script>
 
-    
-<!-- Analytics -->
- 
-<!-- Analytics END -->
-    
-</head>
+		<title>La Panthère agence de web design</title>
+
+		
+	<!-- Analytics -->
+	
+	<!-- Analytics END -->
+		
+	</head>
 <body>
 <!-- Principal conteneur -->
 <div class="page-container">
     
 <!-- bloc-0 -->
-<div class="bloc bgc-white l-bloc " id="bloc-0">
+<header class="bloc bgc-white l-bloc " id="bloc-0">
 	<div class="container bloc-sm">
 		<nav class="navbar row">
 			<div class="navbar-header">
-				<a class="navbar-brand" href="index.html"><img src="img/agence-la-panthere-monochrome.svg" alt="atlanta web design logo" height="40" /></a>
+				<a class="navbar-brand" href="index.html">
+					<img src="img/agence-la-panthere-monochrome.jpg" alt="logo de l'agence web de Lyon : Agence La Panthère" height="40" />
+				</a>
 				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
-					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+					
+					<i class="fa fa-bars" aria-hidden="true"></i>
 				</button>
 			</div>
 			<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
-				<ul class="site-navigation nav navbar-nav">
-					<li>
-						<a href="index.html">Accueil</a>
+				<ul class="nav justify-content-end">
+					<li class="nav-item">
+					  <a class="nav-link" href="index.html">Accueil</a>
 					</li>
-					<li>
-					</li>
-					<li>
-						<a href="page2.html">page2 &gt;</a>
+					<li class="nav-item">
+					  <a class="nav-link" href="contact.html">Contact</a>
 					</li>
 				</ul>
 			</div>
 		</nav>
 	</div>
-</div>
+</header>
 <!-- bloc-0 END -->
 
 <!-- bloc-6 -->
-<div class="bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper" id="bloc-6">
+<div class="bloc bgc-dark-slate-blue bg-banniere d-bloc bg-t-edge bloc-bg-texture texture-paper b-parallax" id="bloc-1-hero">
 	<div class="container bloc-lg">
-		<div class="row">
+		<div class="row tight-width-whitespace">
 			<div class="col-sm-12">
-				<h1 class="text-center hero-bloc-text tc-white">
-					Parlons web design !
+				
+				<h1 class="prendrecontact">
+					Vous souhaitez prendre contact avec nous ? 
 				</h1>
-				<p class="text-center mg-lg tc-white tight-width-whitespace">
-					Nous sommes ravis que vous souhaitiez collaborer avec notre agence.<br>
-					Parlez-nous de votre projet en complétant le formulaire ci-dessous.
-				</p>
+				<p>Nous sommes ravis de l'intéret que vous nous portez et avons hâte de collaborer avec vous lors de vos prochains projets web design</p>
+				<div class="text-center">
+					<a href="contact.html" class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine" id="cta-hero">Contact</a>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -78,42 +81,39 @@
 <!-- bloc-7 -->
 <div class="bloc bgc-white l-bloc" id="bloc-7">
 	<div class="container bloc-lg">
-		<div class="row">
-			<div class="col-sm-6">
-				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
-					<div class="form-group">
-						<label>
-							Nom
-						</label>
-						<input id="name" class="form-control" required />
+		<div class="row tight-width-whitespace">
+			<form>
+				<fieldset>
+					<legend>Formulaire de contact à compléter</legend>
+				  	<div class="mg-md">
+						<label for="NomInput" class="form-label">Nom</label>
+						<input type="text" id="NomInput" class="form-control" required placeholder="Lefebvre">
 					</div>
-					<div class="form-group">
-						<label>
-							Adresse email
-						</label>
-						<input id="email" class="form-control" type="email" required />
+					<div class="mg-md">
+						<label for="PrenomInput" class="form-label">Prémon</label>
+						<input type="text" id="PrenomInput" class="form-control" required placeholder="Louise">
+				  	</div>
+					<div class="mg-md">
+						<label for="MailInput" class="form-select">Adresse mail</label>
+						<input type="text" id="MailInput" class="form-control" required placeholder="lefebvre.louise@gmail.com">
+				  	</div>
+					<div class="mg-md">
+						<label class="form-label" for="Select">Comment nous avez-vous connu ?</label><br>
+						<select id="Select" class="form-label">
+							<option value="Internet">Internet</option>
+							<option value="Amis">Amis</option>
+							<option value="Réseaux Sociaux">Réseaux Sociaux</option>
+						</select>
+				  	</div>
+					<div class="mg-md">
+						<label for="TextArea" class="form-label">Quel est votre projet et comment pouvons nous vous aidez?</label>
+						<textarea id="TextArea" class="form-control" rows="4" cols="50" placeholder="Création de site web, stratégie digitale, aide au référencement...)"></textarea>
+				  	</div>
+					<div class="text-center">
+						<button type="submit" class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine" id="cta-hero">Envoyer</button>
 					</div>
-					<div class="form-group">
-						<label>
-							Comment nous avez-vous connu ?
-						</label>
-						<input class="form-control" type="email" required id="input_504" />
-					</div>
-					<div class="form-group">
-						<label>
-							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
-					</div> 
-					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
-						Envoyer
-					</button>
-				</form>
-			</div>
-			<div class="col-sm-6">
-				<p>
-					contact@agencelapanthere.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br>
-				</p>
-			</div>
+				</fieldset>
+			</form>
 		</div>
 	</div>
 </div>
@@ -127,11 +127,13 @@
 <!-- Footer - bloc-8 -->
 <div class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
 	<div class="container bloc-sm">
+		
 		<div class="row">
 			<div class="col-sm-12">
-				<p class="text-center white">
-					Agence La Panthère - Agence web basée à Lyon.<br>
-				</p>
+				<img src="img/logo.jpg" class="center-block image-resize-mode" alt="Logo Agence La Panthère"/>
+				<h4 class="text-center white">
+					Agence web à Lyon - Agence digitale - Création de sites - Agence de référencement.<br>
+				</h4>
 				<div class="row row-no-gutters social">
 					<div class="col-sm-3">
 						<div class="text-center">
@@ -145,15 +147,20 @@
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-dribbble icon-md"></span></a>
-						</div>
-					</div>
-					<div class="col-sm-3">
-						<div class="text-center">
 							<a class="social" href="index.html"><span class="fa fa-instagram icon-md"></span></a>
 						</div>
 					</div>
 				</div>
+				<div class="adresse">
+				<h3 >Agence La Panthère</h3>
+				<p>
+					Spécialisée en <strong>création de site web</strong> et <strong>stratégie digitale</strong><br>
+					contact@agencelapanthere.com<br>
+					2 place Sathonay 69001 Lyon<br>
+					Ouvert de 9h à 18h, du lundi au vendredi<br>
+				</p>
+				</div>
+				
 			</div>
 		</div>
 	</div>
