@@ -50,7 +50,8 @@ margin-right: auto;
 margin-left: auto;
 width: 200px;
 border-radius: 50%;
-box-shadow: 15px color:#000000;
+/*box-shadow: 15px */
+;color:#000000;
 }
 .bloc-lg {
     padding: 100px 50px;
@@ -742,7 +743,7 @@ margin: 10px;
     font-family: "Open Sans";
 }
 
-.cta-hero {
+.cta-hero .cta-heros {
     margin-top: 22px;
     color: #FFFFFF!important;
     text-transform: uppercase;
@@ -835,14 +836,16 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color: #FFFFFF!important;
+    background: white;
+    color: black important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #F3976C!important;
     color: #FFFFFF!important;
+    
 }
+
 
 .ltc-white {
     color: #FFFFFF!important;
@@ -900,13 +903,13 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -924,10 +927,10 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
+    /*.bloc {
+        padding-left: env(safe-area-inset-left);
+        padding-right: env(safe-area-inset-right);
+    }*/
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -936,8 +939,8 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+       /* padding-left: env(safe-area-inset-left);
+        padding-right: constant(safe-area-inset-right);*/
     }
 }
 
@@ -1109,7 +1112,7 @@ h4 {
  }
  .adresse h3{
     font-size: 19px;
-    color: #FFFFFF !important;
+    color: black !important;
  }
  .adresse p{
     color: #000000;
@@ -1120,13 +1123,29 @@ h1.prendrecontact {
     text-align: center;
     margin-bottom: 50px;
 }
+h5.text-center {
+    color: #000000!important;
+    font-size: 16px;
+}
 .col-sm-12 p{
-    color: white;
+    color: black!important;
     background: #F3976C;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
     margin: 25px 30px 35px 30px;
 }
 .bloc .bgc-white .l-bloc{
     margin: 15px 10px;
+}
+.bloc-realisation{
+    display: flex;
+    flex-direction: column;
+
+}
+.img-responsive {
+    min-width: 250px;
+    
+}
+.image-realisation{
+
 }
