@@ -100,7 +100,7 @@ border-radius: 50%;
 }
 
 .texture-paper::before {
-    background: url("img/bureau_telephone_feuille.jpg");
+    background: url("img/bureau_telephone_feuille.webp");
     background-size: 280px 280px;      
     background-size: cover;
     opacity: 0.9;
@@ -870,13 +870,13 @@ h4 {
 
 
 .bg-banniere {
-    background-image:  linear-gradient(rgba(194, 121, 86, 0.2), rgb(70, 43, 30, 0.8)),
-    url("img/bureau_ecriture_postit.jpg");
+    background-image:  linear-gradient(rgba(194, 121, 86, 0.2), rgb(70, 43, 30, 0.8))
+    ;
    
 }
 
 .bg-presentation {
-    background-image: linear-gradient(rgba(194, 121, 86, 0.2), rgb(70, 43, 30, 0.9)), url(img/bureau_ecriture_postit.jpg);
+    background-image: linear-gradient(rgba(194, 121, 86, 0.2), rgb(70, 43, 30, 0.9));
 }
 
 
