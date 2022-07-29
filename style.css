@@ -1018,7 +1018,9 @@ h4 {
     }
     .navbar-brand img {
         max-height: 40px;
+        max-width: 220px;
         width: auto;
+        padding-bottom: 15px;
     }
     .nav-invert .navbar-header {
         float: none;
