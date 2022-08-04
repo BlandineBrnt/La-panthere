@@ -335,6 +335,7 @@ border-radius: 50%;
 .navbar-brand img {
    
     display: inline;
+    width: 250px;
 }
 
 .navbar-brand img[src$=svg] {
