@@ -337,7 +337,7 @@ border-radius: 50%;
    
     display: inline;
     width: 200px;
-    height:auto;
+    height:37px;
 }
 
 .navbar-brand img[src$=svg] {
@@ -1157,7 +1157,7 @@ p.contacter{
 
 }
 .img-responsive {
-    width: auto;
-    height: auto;
+    width: 230px;
+    height: 230px;
     
 }
