@@ -49,6 +49,7 @@ display: block;
 margin-right: auto;
 margin-left: auto;
 width: 200px;
+height: 200px;
 border-radius: 50%;
 /*box-shadow: 15px */
 ;color:#000000;
@@ -336,6 +337,7 @@ border-radius: 50%;
    
     display: inline;
     width: 250px;
+    height: 50px;
 }
 
 .navbar-brand img[src$=svg] {
@@ -1021,9 +1023,8 @@ h4 {
         box-shadow: none;
     }
     .navbar-brand img {
-        max-height: 40px;
-        max-width: 220px;
-        width: auto;
+        height: 52px;
+        width: 180px;    
         padding-bottom: 15px;
     }
     .nav-invert .navbar-header {
@@ -1156,6 +1157,7 @@ p.contacter{
 
 }
 .img-responsive {
-    min-width: 250px;
+    width: 320px;
+    height: 320px;
     
 }
