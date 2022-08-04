@@ -31,7 +31,7 @@ a:hover {
     width: 100%;
     clear: both;
     background: 50% 50% no-repeat;
-    padding: 0 50px;
+   /*padding: 0 50px;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -333,8 +333,7 @@ border-radius: 50%;
 }
 
 .navbar-brand img {
-    min-height: 60px;
-    margin: 0 5px 0 0;
+   
     display: inline;
 }
 
@@ -508,6 +507,10 @@ button {
 
 .icon-md {
     font-size: 30px!important;
+    color: white!important;
+}
+.icon-md:hover{
+    color: #000000!important;
 }
 
 .icon-lg {
@@ -817,9 +820,7 @@ h4 {
     background-color: #FFFFFF;
 }
 
-.bgc-dark-slate-blue {
-    background-color: #364577;
-}
+
 
 .bgc-atomic-tangerine {
     background-color: #F3976C;
@@ -828,6 +829,7 @@ h4 {
     color: white;
     font-size: 25px;
     opacity: 0.9;
+    background: rgb(0 0 0 / 12%)
 }
 
 .tc-white h2{
@@ -837,15 +839,16 @@ h4 {
 
 .btn-atomic-tangerine {
     background: white;
-    color: black important;
+    color: black !important;
+    font-weight: bold;
+    padding: 10px 40px;  
 }
+
 
 .btn-atomic-tangerine:hover {
     background: #F3976C!important;
-    color: #FFFFFF!important;
-    
+    color: #FFFFFF!important;  
 }
-
 
 .ltc-white {
     color: #FFFFFF!important;
@@ -1119,6 +1122,7 @@ h4 {
  .adresse p{
     color: #000000;
     font-size: 15px;
+    background: none!important;
  }
 h1.prendrecontact {
     font-size: 35px !important;
@@ -1130,11 +1134,17 @@ h5.text-center {
     font-size: 16px;
 }
 .col-sm-12 p{
-    color: black!important;
-    background: #F3976C;
+    
     font-size: 18px;
     text-align: center;
     margin: 25px 30px 35px 30px;
+    background: rgb(0 0 0 / 12%);
+}
+.col-sm-3:hover{
+    color: #000000!important;
+}
+p.contacter{
+    color: white!important;
 }
 .bloc .bgc-white .l-bloc{
     margin: 15px 10px;
@@ -1147,7 +1157,4 @@ h5.text-center {
 .img-responsive {
     min-width: 250px;
     
-}
-.image-realisation{
-
 }
