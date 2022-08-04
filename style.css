@@ -1157,7 +1157,7 @@ p.contacter{
 
 }
 .img-responsive {
-    width: 320px;
-    height: 320px;
+    width: auto;
+    height: auto;
     
 }
